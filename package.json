@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "./node_modules/.bin/supervisor app.js",
-    "test": "./node_modules/.bin/mocha -u tdd"
+    "test": "./node_modules/.bin/mocha -u tdd -w"
   },
   "dependencies": {
     "mocha": "*",
